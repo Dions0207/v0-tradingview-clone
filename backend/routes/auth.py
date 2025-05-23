@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from pydantic import BaseModel
-from utils.iq_option_client import iq_client
+from backend.utils.iq_option_client import iq_client
 
 router = APIRouter()
 
