@@ -3,8 +3,8 @@ from pydantic import BaseModel
 from typing import List, Dict, Optional
 import uuid
 import asyncio
-from utils.websocket_manager import manager
-from utils.iq_option_client import iq_client
+from backend.utils.websocket_manager import manager
+from backend.utils.iq_option_client import iq_client
 
 router = APIRouter()
 
