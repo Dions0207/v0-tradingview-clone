@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.routes import auth, trading, data
+from routes import auth, trading, data
 import uvicorn
 
 app = FastAPI(title="TradingView IQ Option API")
